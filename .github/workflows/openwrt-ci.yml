@@ -15,7 +15,7 @@ on:
       - master
   #     ↑↑↑ 改成你的分支名, 一般是master
   schedule:
-    - cron: 0 20 * * *
+    - cron: 0 20 * * 4
   # release:
   #   types: [published]
 
