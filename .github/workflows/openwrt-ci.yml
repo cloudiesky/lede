@@ -16,9 +16,9 @@ on:
   #     ↑↑↑ 改成你的分支名, 一般是master
   schedule:
     - cron: 0 20 * * *
-  push:
-    tags:
-      - '*'
+  #push:
+  #  tags:
+  #    - '*'
 
 jobs:
 
